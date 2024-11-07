@@ -43,4 +43,11 @@
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
     </root>
+
+    <dependency>
+    <groupId>net.logstash.logback</groupId>
+    <artifactId>logstash-logback-encoder</artifactId>
+    <version>7.0</version> <!-- Adjust to a compatible version if needed -->
+</dependency>
+
 </configuration>
